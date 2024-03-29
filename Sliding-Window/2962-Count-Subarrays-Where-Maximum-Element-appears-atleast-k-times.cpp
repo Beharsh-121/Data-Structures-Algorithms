@@ -16,6 +16,7 @@ long long countSubarrays(vector<int>& nums, int k) {
     }
 
 //Approach - 2 Sliding Window
+//T.C - O(n), S.C - O(1)
  long long countSubarrays(vector<int>& nums, int k) {
        int maxElement = *max_element(nums.begin(), nums.end()), n = nums.size();
        long long result = 0;
