@@ -1,4 +1,4 @@
-//T.C- O(n), S.C- O(1)
+//T.C- O(n), S.C- O(n)
 int slidingWindow(vector<int>& nums, int k){
         unordered_map<int,int>mp;
         int i = 0, j = 0, n = nums.size(), count = 0;
